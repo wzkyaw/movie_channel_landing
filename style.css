@@ -1,0 +1,517 @@
+body {
+  background: #100505;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.bgItems {
+    position: absolute;
+    top: 50%; 
+    left: 10%;
+}
+
+.bgBtn {
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    bottom: 10%; 
+    right: 10%;
+}
+
+.ft-icon {
+    font-size: 20px;
+    padding: .8rem;
+    background: red;
+    border: 3px solid rgb(135, 6, 6);
+    transition: .5s;
+}
+
+.text-white .ft-icon:hover{
+    transform: scale(1.1);
+    background: rgb(101, 47, 47);
+    transition: .5s;
+}
+
+/* carousel section start */
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  user-select: none;
+  background: #211a1a;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next , .swiper-button-prev {
+    color: red;
+    transition: all ease-in-out .3s;
+}
+
+.swiper-button-next:hover , .swiper-button-prev:hover {
+    color: rgb(192, 7, 7);
+}
+
+/* carousel item */
+
+.product-item {
+    width: 100%;
+    transition: .5s;
+}
+  
+.product-action {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+  
+.product-action a.btn {
+    position: relative;
+    opacity: 0;
+}
+
+.product-item {
+    transition:.3s;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    overflow: hidden;
+    transition:.3s;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9 {
+    overflow: hidden;
+    transition:.3s;
+}
+
+.product-action .btn {
+    transition: .3s;
+}
+
+.product-item .img1:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img2:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img3:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img4:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img5:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img6:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img7:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img8:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img9:hover .product-action {
+    box-shadow: 0 0 30px #DDDDDD;
+    background: rgba(186, 72, 72, 0.7);
+}
+
+.product-item .img1:hover .i1 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img2:hover .i2 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img3:hover .i3 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img4:hover .i4 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img5:hover .i5 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img6:hover .i6 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img7:hover .i7 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img8:hover .i8 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+
+.product-item .img9:hover .i9 {
+    transition:.5s;
+    transform: scale(1.2);
+}
+  
+.product-item .img1:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img1:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+
+}
+  
+.product-item .img1:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+
+}
+
+.product-item .img2:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img2:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img2:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img3:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img3:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img3:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img4:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img4:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img4:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img5:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img5:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img5:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img6:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img6:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img6:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img7:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img7:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img7:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img8:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img8:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img8:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+.product-item .img9:hover .product-action a.btn:first-child {
+    opacity: 1;
+    transition: .3s 0s;
+}
+  
+.product-item .img9:hover .product-action a.btn:nth-child(2) {
+    opacity: 1;
+    transition: .3s .05s;
+}
+  
+.product-item .img9:hover .product-action a.btn:nth-child(3) {
+    opacity: 1;
+    transition: .3s .1s;
+}
+
+/* carousel section end */
+
+/* slide section start */
+.releaseTitle .newRelease {
+    background: #100505;
+    color: whitesmoke;
+}
+
+.releaseTitle::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed red;
+    z-index: -1;
+}
+/* slide section end */
+
+/* main content section start */
+.mvCard {
+    transition: .5s;
+}
+.mvCard:hover {
+    transition: .5s;
+    box-shadow: 0 0 30px #DDDDDD;
+    transform: translateY(-8px);
+}
+/* main content section end */
+
+
+@media (max-width : 1500px) {
+    .bgBtn { 
+        bottom: 15%;
+    }
+    .bgItems {
+        position: absolute;
+        top: 45%; 
+        left: 10%;
+    }
+}
+
+@media (max-width : 1400px) {
+    .bgBtn { 
+        bottom: 20%;
+    }
+    .bgItems {
+        position: absolute;
+        top: 40%; 
+        left: 10%;
+    }
+}
+
+@media (max-width : 1350px) {
+    .bgBtn { 
+        bottom: 25%;
+        right: 5%;
+    }
+    .bgItems {
+        position: absolute;
+        top: 45%; 
+        left: 10%;
+    }
+}
+
+@media (max-width : 1300px) {
+    .bgBtn { 
+        bottom: 35%;
+        right: 5%;
+    }
+}
+
+@media (max-width : 1100px) {
+    .bgBtn { 
+        bottom: 40%;
+        right: 5%;
+    }
+}
+
+@media (max-width : 1000px) {
+    .bgBtn { 
+        bottom: 60%;
+        right: 5%;
+    }
+    .bgItems {
+        position: absolute;
+        top: 25%; 
+        left: 10%;
+    }
+}
+
+@media (max-width : 900px) {
+    .bgBtn { 
+        bottom: 60%;
+        right: 5%;
+    }
+    .bgIcon {
+        font-size: 15px !important;
+    }
+    .bgItems {
+        position: absolute;
+        top: 25%; 
+        left: 10%;
+    }
+    .actor {
+        font-size: 20px;
+    }
+    .mvTitle {
+        font-size: 15px;
+    }
+    .bgPlayBtn {
+        font-size: 10px;
+        padding: 2px 6px !important;
+    }
+}
+
+@media (max-width : 700px) {
+    .bgBtn { 
+        bottom: 63%;
+        right: 5%;
+    }
+    .bgItems {
+        position: absolute;
+        top: 20%; 
+        left: 7%;
+    }
+    .actor {
+        font-size: 15px;
+    }
+    .mvTitle {
+        font-size: 12px;
+    }
+    .bgPlayBtn {
+        font-size: 8px;
+        padding: 2px 6px !important;
+        margin-right: 2px !important;
+        margin-top: 1px !important;
+    }
+    .bgPlay {
+        margin-right: 2px !important;
+    }
+
+    .newRelease {
+        font-size: 15px !important;
+    }
+
+    .seeAllBtn2 {
+        padding: 2px 6px !important;
+        font-size: 15px !important;
+    }
+    .ft-icon {
+        font-size: 13px !important;
+        padding: .5rem !important;
+        background: red;
+        border: 3px solid rgb(135, 6, 6);
+    }
+    .ft-myMv{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width : 600px) {
+    .bgBtn { 
+        bottom: 68%;
+        right: 7%;
+    }
+}
+
+@media (max-width : 500px) {
+    .bgBtn { 
+        bottom: 70%;
+        right: 8%;
+    }
+}
+
